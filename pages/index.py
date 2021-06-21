@@ -16,17 +16,22 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Improve your chances of success on Kick Starter!
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Ever wonder why some projects on Kick Starter are run away successes while others flop? Could it just be luck? Or is there a secret sauce that founders can apply to maximize results? 
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            Not sure? Use our handy App to improve your chances of launching a successful Kick Starter campaign!
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            Kick Starter Success uses cutting edge machine learning algorithms to allow you to prioritize features that improve your chances of success.
+
+            Not sure what those features are or how to optimize them? Don’t worry, leave that to us. 
+
+            Click Let’s Go below to start exploring and optimizing!
+
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button("Let's Go", color='primary'), href='/predictions')
     ],
     md=4,
 )
