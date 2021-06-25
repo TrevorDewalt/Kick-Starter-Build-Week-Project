@@ -33,7 +33,7 @@ column1 = dbc.Col(
         ),
         dcc.Link(dbc.Button("Let's Go", color='primary'), href='/predictions')
     ],
-    md=4,
+    md=5,
 )
 
 gapminder = px.data.gapminder()
@@ -42,7 +42,11 @@ fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size
 
 column2 = dbc.Col(
     [
-        dcc.Graph(figure=fig),
+        html.Img(src='assets/kickstarter-staffpick-black.PNG',
+                 className='img-fluid',
+                 alt="Responsive image")
+
+
     ]
 )
 
