@@ -1,3 +1,2 @@
-# Dash Template
-
-[Instructions](https://lambdaschool.github.io/ds/unit2/dash-template/)
+# DS-kickstarter
+Build Week project for kickstarter predictor
